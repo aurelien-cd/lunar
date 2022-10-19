@@ -90,6 +90,7 @@ class Product extends BaseModel implements SpatieHasMedia
     protected $fillable = [
         'attribute_data',
         'product_type_id',
+        'brand_id',
         'status',
     ];
 
